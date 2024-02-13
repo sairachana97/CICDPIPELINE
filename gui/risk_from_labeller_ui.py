@@ -9,7 +9,8 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from PyQt5.QtGui import QIcon
+from common_ui import add_actions_to_toolbar
 
 class Ui_RiskWindow_from_Labeller(object):
     def setupUi(self, RiskWindow):
@@ -41,6 +42,17 @@ class Ui_RiskWindow_from_Labeller(object):
         icon = QtGui.QIcon()
         icon.addPixmap(QtGui.QPixmap("../res/ML4CYBER_Logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.On)
         RiskWindow.setWindowIcon(icon)
+
+        #tool bar
+        self.toolbar = RiskWindow.addToolBar("TopToolBar")
+        self.toolbar, self.go_back_button, self.home_button = add_actions_to_toolbar(self.toolbar, self)
+        '''
+        self.flexible_space = QtWidgets.QWidget()
+        self.flexible_space.setSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Expanding)
+        self.toolbar.addWidget(self.flexible_space)
+        self.home_button = QtWidgets.QAction(QIcon("./download.png"), "Home Button", self)
+        self.toolbar.addAction(self.home_button)
+        '''
         self.centralwidget = QtWidgets.QWidget(RiskWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)

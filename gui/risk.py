@@ -1,5 +1,4 @@
 import os
-
 from risk_predictions import Impl_RiskPredictionsWindow
 from risk_model import Impl_RiskModelWindow
 from help import Impl_HelpWindow
@@ -13,18 +12,28 @@ import pandas as pd
 import json
 from dataset_column import DatasetColumn
 import math
+from PyQt5.QtCore import pyqtSignal
+from pathlib import Path
 
 class Impl_RiskWindow(Ui_RiskWindow, QtWidgets.QMainWindow):
     """Creates risk assessment window"""
 
     total_risk_list = []
-
+    window_closed = pyqtSignal(str)
     def __init__(self):
         """Initializes risk window object"""
         super(Ui_RiskWindow, self).__init__()
         self.setupUi(self)
+        self.home_button.triggered.connect(self.home_button_clicked)
+        self.go_back_button.triggered.connect(self.home_button_clicked)
+        script_path = os.path.abspath(__file__)
+        script_dir = os.path.dirname(script_path)+'/test.csv'
+        file_path = script_dir
+        if not file_path:
+            script_dir = os.path.dirname(script_path)+'\test.csv'
+            file_path = script_dir
 
-        file_path = r'gui/toolfiles/ccode dx labeled.csv'
+
         self.datasetDF = pd.read_csv(file_path)
         self.currentSample = self.datasetDF.iloc[[0]]
         self.currentIdx = 0
@@ -174,6 +183,18 @@ class Impl_RiskWindow(Ui_RiskWindow, QtWidgets.QMainWindow):
 
         for b in self.btns_Page:
             b.clicked.connect(self.btn_Page_clicked)
+            
+    def home_button_clicked(self):
+        from menu import Impl_MainWindow
+        self.p = Impl_MainWindow()
+        self.p.show()
+        self.close()
+        
+    def go_back_button_clicked(self):
+        self.close()
+        
+   # def closeEvent(self, event):
+   #     self.window_closed.emit("")
 
     def cBox_GL_File_currentTextChanged(self):
         filepathCol = self.cBox_GL_File.currentText()
@@ -216,10 +237,11 @@ class Impl_RiskWindow(Ui_RiskWindow, QtWidgets.QMainWindow):
             self.file_path_lineedit.setText(file_path)
             self.datasetDF = pd.read_csv(file_path)
             # Adding a condition to verify if the uploaded file is labeled or not
-            if "output" not in self.datasetDF.columns:
-                QMessageBox.warning(self,'Column Missing', 'Please upload labeled dataset.')
-                self.file_path_lineedit.clear()
-                return
+            if "Output" not in self.datasetDF.columns:
+                if "output" not in self.datasetDF.columns:
+                    QMessageBox.warning(self,'Column Missing', 'Please upload labeled dataset.')
+                    self.file_path_lineedit.clear()
+                    return
             
             # Adding a condition to verify if there is atleast one record in the file uploaded
             if self.datasetDF.empty:
@@ -1140,4 +1162,4 @@ class Impl_RiskWindow(Ui_RiskWindow, QtWidgets.QMainWindow):
         self.txtB_CWSS_AS_info.setText("{0:0.2f}".format(as_score))
         self.txtB_CWSS_E_info.setText("{0:0.2f}".format(e_score))
         self.txtB_CWSS_Score_info.setText("{0:0.2f}".format(final_score))
-        self.txtB_CWSS_Threat_info.setText(risk_level)
+        self.txtB_CWSS_Threat_info.setText(risk_level) 

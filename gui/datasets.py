@@ -44,6 +44,7 @@ from PyQt5 import QtWidgets
 from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QFileDialog, QMessageBox, QWidget
 from help import Impl_HelpWindow
+from PyQt5.QtCore import pyqtSignal
 
 class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
     """Creates menu window"""
@@ -72,6 +73,8 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
 
     def customEvents(self):
         """Custom events method; here you connect functions with the UI."""
+        self.home_button.triggered.connect(self.home_button_clicked)
+        self.go_back_button.triggered.connect(self.home_button_clicked)
         self.btn_LoadDataset.clicked.connect(self.btn_LoadDataset_clicked)
         self.btn_AddColumn.clicked.connect(self.btn_AddColumn_clicked)
         self.btn_RemoveColumn.clicked.connect(self.btn_RemoveColumn_clicked)
@@ -99,6 +102,12 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
             self.hSld_TrainTestSplit_valueChanged
         )
     
+    def home_button_clicked(self):
+        from menu import Impl_MainWindow
+        self.hm_ui = Impl_MainWindow()
+        self.hm_ui.show()
+        self.close()
+    
     def btn_Help_clicked(self):
         """Clicked event on btn_Help component.
          Loads and show Help Window.
@@ -120,6 +129,8 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
         elif self.saved_dataset_path is not None:
             self.dsl_ui = Impl_DatasetsLabelerWindow(self.saved_dataset_path)
             self.dsl_ui.show()
+            self.close()
+
 
     def convertXmlToCSV(self, fileName):
         """Clicked event on btn_Labeler component.
@@ -286,6 +297,15 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
         self.inferDatasetOriginTool()
 
         self.statusBar().showMessage("Loading XML Dataset Done!", 3000)
+        self.d = self.ds_xml_dict.copy()
+        try:
+         for k in self.ds_roots[self.cBox_Root.currentIndex()]:
+             self.d = self.d[k]
+        except IndexError:
+            print("Error: Index is out of bounds.")
+        cols = [col.split_name_xml() for col in self.datasetColumns]
+        self.df_dataset = self.createDataFrameFromXML(self.d, cols)
+        self.cBox_Column.addItems(list(self.df_dataset.columns))
 
     def inferDatasetOriginToolforCsv(self):
         # Current ds should be an XML
@@ -295,15 +315,15 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
         origin_str = None
        
         if '@status' in self.ds_raw:
-            # Current dataset comes from CodeDx XML
+            # Current dataset comes from CodeDx CSV
             origin_idx = 2
             origin_str = "CodeDx"
         elif "Package" in self.ds_raw:
-            # Current dataset comes from Gendarme XML
+            # Current dataset comes from PMD CSV
             origin_idx = 3
             origin_str = "PMD"
         elif "Fixable" in self.ds_raw:
-            # Current dataset comes from Gendarme XML
+            # Current dataset comes from PHP CSV
             origin_idx = 12
             origin_str = "PHP"
         if origin_idx != -1:
@@ -317,6 +337,37 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
                 QMessageBox.Ok,
             )
             self.cBox_Preset.setCurrentIndex(origin_idx)
+            self.btn_SaveDataset.setEnabled(False)
+    
+    def inferDatasetOriginToolforJSON(self):
+        # Current ds should be an JSON
+        print("coming into inferdatasetoriginal json tool")
+        with open(self.txtB_DatasetPath.text()) as f:
+            jsondata = json.load(f)
+        origin_idx = -1
+        origin_str = None
+        if 'messages' in jsondata:
+            # Current dataset comes from CodeDx CSV
+            origin_idx = 17
+            origin_str = "ESLint"
+        elif 'result' in jsondata:
+            origin_idx = 16
+            origin_str = "JSHint"
+        elif 'files' in jsondata:
+            origin_idx = 14
+            origin_str = "PHP_CodeSniffer"
+        if origin_idx != -1:
+            QMessageBox.information(
+                self,
+                "Autoload Preset",
+                "Preset for {} has been loaded.\nYou can add/remove features as you see fit.".format(
+                    origin_str
+                ),
+                QMessageBox.Ok,
+                QMessageBox.Ok,
+            )
+            self.cBox_Preset.setCurrentIndex(origin_idx)
+            self.btn_SaveDataset.setEnabled(False)
         
     def inferDatasetOriginTool(self):
         # Current ds should be an XML
@@ -372,6 +423,7 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
                 QMessageBox.Ok,
             )
             self.cBox_Preset.setCurrentIndex(origin_idx)
+            self.btn_SaveDataset.setEnabled(False)
 
     def loadDatasetFile(self, filepath, reportType=None):
         """Loads a datasets either in csv or xml format.
@@ -379,6 +431,10 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
         Args:
             filepath (str): File path to the dataset.
         """
+        if os.path.getsize(filepath) == 0:
+            QMessageBox.warning(self, 'Empty Dataset', 'The selected dataset file is empty. Reload another file.',
+                            QMessageBox.Ok)
+            return
         self.txtB_DatasetPath.setText(filepath)
         self.dataset_type = os.path.splitext(filepath)[1][1:].lower()
 
@@ -440,7 +496,7 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
 
             with open(filepath, "r", encoding="utf-8") as f:
                 self.ds_raw = f.read()
-            self.inferDatasetOriginToolforCsv()
+           
             self.txtB_InfoSamples.setText(
                 "{}".format(self.df_dataset.shape[0])
             )
@@ -477,6 +533,7 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
             self.btn_SaveSchema.setEnabled(True)
             self.btn_SaveDataset.setEnabled(True)
             self.cBox_Root.setEnabled(False)
+            self.inferDatasetOriginToolforCsv()
 
         elif self.dataset_type == "xml":
             self.ds_xml_dict = {}
@@ -527,6 +584,7 @@ class Impl_DatasetsWindow(Ui_DatasetsWindow, QtWidgets.QMainWindow,):
             self.btn_SaveSchema.setEnabled(False)
             self.btn_SaveDataset.setEnabled(False)
             self.cBox_Root.setEnabled(False)
+            self.inferDatasetOriginToolforJSON()
 
     def btn_LoadSchema_clicked(self):
         """Clicked event on btn_LoadSchema

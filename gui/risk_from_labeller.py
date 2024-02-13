@@ -1,5 +1,4 @@
 import os
-
 from risk_predictions import Impl_RiskPredictionsWindow
 from risk_model import Impl_RiskModelWindow
 from help import Impl_HelpWindow
@@ -13,19 +12,21 @@ import pandas as pd
 import json
 from dataset_column import DatasetColumn
 import math
+from PyQt5.QtCore import pyqtSignal
 
 class Impl_RiskWindow_from_Labeller(Ui_RiskWindow_from_Labeller, QtWidgets.QMainWindow):
     """Creates risk assessment window"""
 
     total_risk_list = []
-    def __init__(self, datasetDF, currentIdx):
+    def __init__(self, datasetDF, currentIdx, path):
         """Initializes risk window object"""
         super(Ui_RiskWindow_from_Labeller, self).__init__()
         self.setupUi(self)
-
+        self.op_str = ""
         self.datasetDF = datasetDF
         self.currentSample = self.datasetDF.iloc[[currentIdx]]
         self.currentIdx = currentIdx
+        self.path = path
 
         self.customInit()
         self.customEvents()
@@ -98,6 +99,8 @@ class Impl_RiskWindow_from_Labeller(Ui_RiskWindow_from_Labeller, QtWidgets.QMain
 
     def customEvents(self):
         """Custom events method; here you connect functions with the UI."""
+        self.home_button.triggered.connect(self.home_button_clicked)
+        self.go_back_button.triggered.connect(self.go_back_button_clicked)
 
         self.cBox_BF_AL.currentTextChanged.connect(
             self.cBox_BF_AL_currentTextChanged
@@ -1110,3 +1113,16 @@ class Impl_RiskWindow_from_Labeller(Ui_RiskWindow_from_Labeller, QtWidgets.QMain
         self.txtB_CWSS_E_info.setText("{0:0.2f}".format(e_score))
         self.txtB_CWSS_Score_info.setText("{0:0.2f}".format(final_score))
         self.txtB_CWSS_Threat_info.setText(risk_level)
+    
+    def home_button_clicked(self):
+        from menu import Impl_MainWindow
+        self.hm_ui = Impl_MainWindow()
+        self.hm_ui.show()
+        self.close()
+        
+    def go_back_button_clicked(self):
+        from datasets_labeler import Impl_DatasetsLabelerWindow
+        self.bw_ui = Impl_DatasetsLabelerWindow(self.path)
+        self.bw_ui.show()
+        self.close()
+        

@@ -16,7 +16,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setWindowModality(QtCore.Qt.NonModal)
         #self.setWindowFlag(QtCore.Qt.WindowMaximizeButtonHint, True)
-        MainWindow.resize(960, 720)
+        MainWindow.resize(1280, 720)
         sizePolicy = QtWidgets.QSizePolicy(
             QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred
         )
@@ -47,14 +47,15 @@ class Ui_MainWindow(object):
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
         MainWindow.setPalette(palette)
-        icon = QtGui.QIcon()
-        icon.addPixmap(
-            QtGui.QPixmap("../res/ML4CYBER_Logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off
-        )
-        MainWindow.setWindowIcon(icon)
-        MainWindow.setLocale(
-            QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.UnitedStates)
-        )
+        # icon = QtGui.QIcon()
+        # icon.addPixmap(
+        #     QtGui.QPixmap("../res/ML4CYBER_Logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off
+        # )
+        # MainWindow.setWindowIcon(icon)
+        # MainWindow.setLocale(
+        #     QtCore.QLocale(QtCore.QLocale.English, QtCore.QLocale.UnitedStates)
+        # )
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         # The horizontal layout for the widget to help resizing the window
@@ -65,8 +66,36 @@ class Ui_MainWindow(object):
         # The vertical layout of the widget to help resizing the window
         self.vlayout = QtWidgets.QVBoxLayout()
         self.vlayout.setObjectName("vlayout")
-        self.vlayout.setContentsMargins(50, 0, 50, 50)
-        self.vlayout.setSpacing(60)
+        self.vlayout.setContentsMargins(50, 30, 50, 50)
+        self.vlayout.setSpacing(30)
+
+        spacer_item = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.vlayout.addItem(spacer_item)
+
+        self.himage_layout = QtWidgets.QHBoxLayout()
+        self.himage_layout.setObjectName("himage_layout")
+
+        self.second_image_label = QtWidgets.QLabel(self.centralwidget)
+        self.second_image_label.setObjectName("second_image_label")
+        self.second_image_label.setAlignment(QtCore.Qt.AlignTop)
+        self.second_image_label.setPixmap(QtGui.QPixmap(":/menu/ML4CYBER_Logo.png"))
+        self.second_image_label.setFixedSize(100, 100)  # Set the desired size
+        self.second_image_label.setScaledContents(True)
+        self.himage_layout.addWidget(self.second_image_label)
+
+        self.himage_layout.addSpacing(10)
+        # self.himage_layout.addItem(QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum))
+
+        # Add label for the image
+        self.image_label = QtWidgets.QLabel(self.centralwidget)
+        self.image_label.setObjectName("image_label")
+        self.image_label.setAlignment(QtCore.Qt.AlignHCenter)
+        self.image_label.setPixmap(QtGui.QPixmap(":/menu/vinci.png").scaled(400,200))  # Adjust the width as needed
+        self.image_label.setScaledContents(True)
+        self.himage_layout.addWidget(self.image_label)
+        self.vlayout.addLayout(self.himage_layout)
+
+        
 
         # Adding the buttons to the vertical layout
         self.label = QtWidgets.QLabel(self.centralwidget)
@@ -98,7 +127,7 @@ class Ui_MainWindow(object):
         
         # Adding the vertical layout to the horizontal layout
         self.hlayout.addLayout(self.vlayout)
-        
+
         font = QtGui.QFont()
         font.setFamily("MS Shell Dlg 2")
         font.setPointSize(20)
@@ -245,9 +274,13 @@ class Ui_MainWindow(object):
             "}"
         )
         self.btn_Help.setObjectName("btn_Help")
-        self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap(":/menu/vinci.png"))
-        self.label.setScaledContents(True)
+        # self.label.setText("")
+        # self.label.setPixmap(QtGui.QPixmap(":/menu/ML4CYBER_Logo.png"))
+        # self.label.setScaledContents(True)
+
+       
+    
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 960, 25))
@@ -256,6 +289,8 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+
+
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)

@@ -9,13 +9,13 @@ from PyQt5.QtWidgets import QFileDialog, QMessageBox, QWidget
 from risk_from_labeller import Impl_RiskWindow_from_Labeller
 from groupLabelling import Impl_GroupLabelling_Window
 from help import Impl_HelpWindow
+from PyQt5.QtCore import pyqtSignal
 
 
 class Impl_DatasetsLabelerWindow(
     Ui_DatasetsLabelerWindow, QtWidgets.QMainWindow
 ):
     """Creates datasets labeler window"""
-
     def __init__(self, datasetPath):
         """Initializes datasets window object"""
         super(Impl_DatasetsLabelerWindow, self).__init__()
@@ -58,6 +58,8 @@ class Impl_DatasetsLabelerWindow(
 
     def customEvents(self):
         """Custom events method; here you connect functions with the UI."""
+        self.home_button.triggered.connect(self.home_button_clicked)
+        self.go_back_button.triggered.connect(self.go_back_button_clicked)
         self.btn_LoadDatasetSampling.clicked.connect(
             self.btn_LoadDatasetSampling_clicked
         )
@@ -159,18 +161,31 @@ class Impl_DatasetsLabelerWindow(
         Loads and shows Risk Window.
         """
         idx = int(self.sBox_Sample.value()) - 1
-        self.rs_ui = Impl_RiskWindow_from_Labeller(self.df_dataset_labeling, idx)
+        self.rs_ui = Impl_RiskWindow_from_Labeller(self.df_dataset_labeling, idx, self.path)
         self.rs_ui.risk_list_signal.connect(self.saveRiskLabels)
         self.rs_ui.show()
+        self.close()
+            
+    def receive_window_path(self, path):
+        print("Received dataset path:", path)
+        self.hide()
+        try:
+            # Assuming you want to open Impl_DatasetsLabelerWindow with the received path
+            self.rs_ui = Impl_DatasetsLabelerWindow(self.path)
+            self.rs_ui.show()
+            if path == "home":
+                print("clicked home button")
+                self.home_button_clicked()
+        except Exception as e:
+            print(f"Error creating or showing Impl_DatasetsLabelerWindow: {e}")
+        
 
     def btn_GroupLabelling_clicked(self):
-        """Clicked event on btn_GroupLabelling component.
-        Loads and shows Group Labeler Window.
-        """
         idx = int(self.sBox_Sample.value()) - 1
         datasetPath = self.path
         self.rs_ui = Impl_GroupLabelling_Window(datasetPath)
         self.rs_ui.show()
+        self.close()
 
     def cBox_SampleType_currentTextChanged(self):
         """currentTextChanged event on cBox_SampleType
@@ -684,3 +699,15 @@ class Impl_DatasetsLabelerWindow(
         )
 
         self.tbl_CurrentExample.resizeRowsToContents()
+        
+    def home_button_clicked(self):
+        from menu import Impl_MainWindow
+        self.hm_ui = Impl_MainWindow()
+        self.hm_ui.show()
+        self.close()
+        
+    def go_back_button_clicked(self):
+        from datasets import Impl_DatasetsWindow
+        self.hm_ui = Impl_DatasetsWindow()
+        self.hm_ui.show()
+        self.close()

@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from common_ui import add_actions_to_toolbar
 
 class Ui_PredictionsWindow(object):
     def setupUi(self, PredictionsWindow):
@@ -44,6 +44,11 @@ class Ui_PredictionsWindow(object):
         PredictionsWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(PredictionsWindow)
         self.centralwidget.setObjectName("centralwidget")
+
+        self.toolbar = PredictionsWindow.addToolBar("TopToolBar")
+        self.toolbar, self.go_back_button, self.home_button = add_actions_to_toolbar(self.toolbar, self)
+
+
         self.groupBox_3 = QtWidgets.QGroupBox(self.centralwidget)
         self.groupBox_3.setGeometry(QtCore.QRect(25, 50, 1250, 300))
         self.groupBox_3.setObjectName("groupBox_3")
