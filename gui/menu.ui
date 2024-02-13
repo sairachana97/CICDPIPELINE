@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>960</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>960</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Vinci ML Tool</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../res/menu_res.qrc">
+    <normaloff>../res/ML4CYBER_Logo.png</normaloff>../res/ML4CYBER_Logo.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_Datasets">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>801</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">* {
+	background-color:#ffffff;
+	border-radius:42px;
+	border:6px solid #2982ff;
+	color:#355398;
+	font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	font-weight: bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+*:hover {
+	background-color:#def2ff;
+}
+*:active {
+	position:relative;
+	top:1px;
+}</string>
+    </property>
+    <property name="text">
+     <string>DATASETS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Models">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>370</y>
+      <width>801</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">* {
+	background-color:#ffffff;
+	border-radius:42px;
+	border:6px solid #2982ff;
+	color:#355398;
+	font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	font-weight: bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+*:hover {
+	background-color:#def2ff;
+}
+*:active {
+	position:relative;
+	top:1px;
+}</string>
+    </property>
+    <property name="text">
+     <string>MODEL TRAINING</string>
+    </property>
+   </widget>
+
+   <widget class="QPushButton" name="btn_Risk">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>520</y>
+      <width>801</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">* {
+	background-color:#ffffff;
+	border-radius:42px;
+	border:6px solid #2982ff;
+	color:#355398;
+	font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	font-weight: bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+*:hover {
+	background-color:#def2ff;
+}
+*:active {
+	position:relative;
+	top:1px;
+}</string>
+    </property>
+    <property name="text">
+     <string>RISK</string>
+    </property>
+   </widget>
+
+   <widget class="QPushButton" name="btn_Predictions">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>520</y>
+      <width>801</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">* {
+	background-color:#ffffff;
+	border-radius:42px;
+	border:6px solid #2982ff;
+	color:#355398;
+	font: 75 20pt &quot;MS Shell Dlg 2&quot;;
+	font-weight: bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+*:hover {
+	background-color:#def2ff;
+}
+*:active {
+	position:relative;
+	top:1px;
+}</string>
+    </property>
+    <property name="text">
+     <string>PREDICTIONS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>901</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../res/menu_res.qrc">:/menu/vinci.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../res/menu_res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

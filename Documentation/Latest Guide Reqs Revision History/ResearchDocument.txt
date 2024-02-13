@@ -1,0 +1,143 @@
+Research about the static code analyser tool:
+* Various static code analysis tools like pmd, sonarQube, CodeDx(current tool supports).
+* The tool can support SonarQube and PMD reports in future.
+
+Research links:
+https://www.baeldung.com/pmd 
+https://www.crestdatasys.com/blogs/an-introduction-on-using-sonarqube/
+
+Research about ML algorithms:
+* Stochastic Gradient Descent(SGD) algorithm was used.
+* SGD is a variation gradient descent algorithm. SGD is used usually in case of Big-Data.
+
+Research links: 
+https://www.geeksforgeeks.org/ml-stochastic-gradient-descent-sgd/ 
+https://scikit-learn.org/stable/modules/sgd.html
+
+Tutorial Link: 
+https://www.youtube.com/watch?v=vMh0zPT0tLI 
+https://www.youtube.com/watch?v=7QzNifIDXDw
+
+Research about labelling of datasets:
+* Stratified sampling techniques used for selecting the datasets for sampling.
+* Understand the criteria for selecting true-positive or false positive.
+
+Research links:
+
+https://www.baeldung.com/cs/ml-stratified-sampling 
+
+
+Research on Dataset Partition:
+* Partition of the training and validation datasets using numpy, or pandas.
+* Partition data by avoiding overfitting and underfitting.
+
+Research Links:
+https://towardsdatascience.com/how-to-split-a-dataset-into-training-and-testing-sets-b146b1649830
+
+Research on Efficient Partitioning:
+* Analyse the input report to ensure that data partition into training and testing sets has been performed to achieve maximum efficiency.
+* Ensuring that quality training data is considered.
+
+Research Links:
+https://www.perforce.com/blog/sca/what-static-analysis
+https://www.cloudfactory.com/training-data-guide
+
+Setup Codebase and Resolve Dependency Issues:
+* Initial setup of the codebase in local and resolved dependency issues with the libraries.
+* Gained a better understanding of the involved libraries such as Tensorflow, and Pandas.
+
+Research Links:
+https://www.tensorflow.org/
+https://pandas.pydata.org/docs/user_guide/index.html
+
+Explore tool with Different Datasets:
+* Ran the tool with reports from several static code analysers.
+* Reports include CodeDx and PMD.
+
+Research Links:
+https://pmd.github.io/pmd/pmd_languages_xml.html
+
+Research on Categorical Data and Encoding methods:
+* Gained an understanding of different types of data available(Categorical and Numerical).
+* In addition, researched on encoding methods to convert categorical data to numerical data(integer or binary values).
+
+Research Links:
+https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
+
+Research on creating the dataset using python:
+* The datasets are the outputs of the static code analysers
+* This dataset is used in the application with the following python code.
+
+Research Links:
+https://machinelearningmastery.com/a-guide-to-getting-datasets-for-machine-learning-in-python/
+https://www.geeksforgeeks.org/python-generate-test-datasets-for-machine-learning/
+
+Research on how the prototype saves the dataset:
+* Typical understanding on how the dataset is saved using python
+* The saved dataset is also used after in the application for labelling, training and predicting purposes
+
+Research Links:
+https://www.tutorialspoint.com/save-file-dialog-box-in-tkinter 
+https://www.geeksforgeeks.org/python-asksaveasfile-function-in-tkinter/
+
+Research on the Code understandablity:
+* Understanding and analysis of the code
+* Techstack used in the application.
+
+Research Links:
+https://pypi.org/project/PyQt5/  
+https://www.tensorflow.org/  
+https://numpy.org/
+
+Research about the file formats used by the prototype
+https://www.educba.com/xml-file-format/  
+https://docs.fileformat.com/spreadsheet/csv/
+
+Research about other file formats that can be supported by the tool
+https://docs.fileformat.com/web/json/
+
+Research about the schema generation in the tool
+https://docs.streamsets.com/platform-datacollector/latest/datacollector/UserGuide/Processors/SchemaGenerator.html#:~:text=The%20Schema%20Generator%20processor%20generates,when%20the%20schema%20is%20unknown.   
+https://docs.oracle.com/cd/E19501-01/819-3659/6n5s6m5da/index.html#:~:text=The%20automatic%20schema%20generation%20feature,between%20the%20fields%20or%20properties.
+
+Research on how to create the GUI in PyQt5:
+https://realpython.com/python-pyqt-gui-calculator/
+https://www.guru99.com/pyqt-tutorial.html
+https://www.pythonguis.com/pyqt5-tutorial/
+
+Research on how to resize the components in GUI:
+https://doc.qt.io/qt-6/qlayout.html#setContentsMargins-1
+https://doc.qt.io/qt-6/qlayout.html
+https://www.geeksforgeeks.org/qt-alignment-in-pyqt5/
+https://realpython.com/python-pyqt-layout/
+
+Research on Adding the Help as a Window:
+https://www.pythonguis.com/tutorials/creating-multiple-windows/
+https://stackoverflow.com/questions/36768033/pyqt-how-to-open-new-window
+
+Research on resizing window icon
+https://doc.qt.io/qt-6/appicon.html
+https://learn.microsoft.com/en-us/windows/win32/menurc/about-resource-files
+https://stackoverflow.com/questions/2312210/window-icon-of-exe-in-pyqt4
+https://stackoverflow.com/questions/14556841/how-to-load-ico-files-in-pyqt4-from-networkg
+
+
+Research on installing and setup of the ESLint static code analyser
+https://eslint.org/docs/latest/use/getting-started
+https://www.youtube.com/watch?v=1IMVt-61img
+https://www.youtube.com/watch?v=SYSZi_nQzxk
+https://dev.to/devdammak/setting-up-eslint-in-your-javascript-project-with-vs-code-2amf
+https://medium.com/dailyjs/adding-eslint-to-your-project-7bd4feca35a8
+https://gist.github.com/asharirfan/2bac7132e399f6531f9049b88100138d
+https://documentation.tricentis.com/livecompare/410/en/content/installing_and_configuring_nodejs_and_eslint.htm
+
+Research on installation, setup and report generation in JSHint
+https://jshint.com/docs/cli/
+https://jshint.com/docs/reporters/
+https://github.com/jshint/jshint/blob/main/examples/reporter.js
+
+Research on Logistic Regression Model
+https://www.baeldung.com/cs/linear-vs-logistic-regression
+https://realpython.com/logistic-regression-python/
+https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+https://www.geeksforgeeks.org/ml-logistic-regression-using-python/

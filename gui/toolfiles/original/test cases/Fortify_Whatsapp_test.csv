@@ -1,0 +1,4 @@
+output,ClassInfo->Kingdom,ClassInfo->Type,ClassInfo->Subtype,ClassInfo->AnalyzerName,ClassInfo->DefaultSeverity,InstanceInfo->InstanceSeverity,InstanceInfo->Confidence
+,Security Features,Insecure Randomness,,structural,2.0,2.0,5.0
+,Security Features,Insecure Randomness,,structural,2.0,2.0,5.0
+,Encapsulation,System Information Leak,External,dataflow,3.0,3.0,4.8

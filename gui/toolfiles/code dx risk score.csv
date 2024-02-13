@@ -1,0 +1,63 @@
+,@status,@severity,cwe->@id,results->result->description->#text,results->result->tool->@category,results->result->tool->@name,rule->@code,rule->@name,risk_level
+0,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+1,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+2,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,Low
+3,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+4,escalated,low,561.0,'d' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,Low
+5,escalated,medium,398.0,"""request-promise-native"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,Low
+6,escalated,low,561.0,'responseTimeout' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,Low
+7,escalated,high,79.0,Non-HTML variable 'str' is used to store raw HTML,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),Low
+8,escalated,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,Low
+9,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+10,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,Low
+11,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,Low
+12,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+13,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,Low
+14,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+15,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,Low
+16,escalated,low,489.0,,,,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,Low
+17,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+18,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,Low
+19,escalated,info,398.0,The for-in loop variable 'c' should be explicitly scoped with var to avoid pollution.,Best Practices,PMD,PMD-Basic Ecmascript-ScopeForInVariable,For-in loop variable not explicitly scoped,
+20,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,Low
+21,escalated,low,561.0,'e' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,Low
+22,escalated,info,,Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (modInfo),,JSHint,JH--W083,Don't make functions within a loop,Low
+23,escalated,high,79.0,Unencoded input 'self.type' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),Low
+24,escalated,low,398.0,'h' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,Low
+25,escalated,info,,,,,JH--W117,Not defined,Low
+26,escalated,low,561.0,'_0' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,Low
+27,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,Low
+28,escalated,high,,The function setTimeout can be unsafe,scanjs-rules,ESLint,ESLINT-SCANJS-RULES-call_setTimeout,Call setTimeout,Low
+29,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,Low
+30,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,Low
+31,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+32,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+33,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,Low
+34,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+35,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+36,escalated,info,,"Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (modInfo, console, modulesInfo)",,JSHint,JH--W083,Don't make functions within a loop,Low
+37,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,Low
+38,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,Low
+39,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+40,escalated,info,,,,,JH--W117,Not defined,Low
+41,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+42,escalated,low,398.0,'h' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,Low
+43,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,Low
+44,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,Low
+45,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,Low
+46,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,Low
+47,escalated,low,665.0,Undefined variable 'whatsapp',,Pylint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,Low
+48,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,Low
+49,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,
+50,false-positive,info,,"Import ""from google.protobuf import descriptor as _descriptor"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,
+51,false-positive,info,,'async functions' is only available in ES8 (use 'esversion: 8').,,JSHint,JH--W119,Use of ES6 extension,
+52,false-positive,info,,'b' is already defined.,,JSHint,JH--W004,Function already defined,
+53,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,
+54,false-positive,info,,"Import ""import os"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,
+55,false-positive,info,,"Use the function form of ""use strict"".",,JSHint,JH--W097,Use function form of 'use strict',
+56,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,
+57,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,
+58,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,
+59,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,
+60,false-positive,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,
+61,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,

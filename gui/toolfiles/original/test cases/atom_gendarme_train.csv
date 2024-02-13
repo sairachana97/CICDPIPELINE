@@ -1,0 +1,2 @@
+output,@Name,target->defect->@Severity,target->defect->@Confidence
+,UseFlagsAttributeRule,Medium,High

@@ -1,0 +1,21 @@
+output,@id,@severity,@msg
+,variableScope,style,The scope of the variable &#039;len&#039; can be reduced.
+,va_list_usedBeforeStarted,error,va_list &#039;ap2&#039; used before va_start() was called.
+,variableScope,style,The scope of the variable &#039;size_filepath&#039; can be reduced.
+,invalidscanf,warning,sscanf() without field width limits can crash with huge input data.
+,variableScope,style,The scope of the variable &#039;size_dirpath&#039; can be reduced.
+,unreadVariable,style,Variable &#039;size_filepath&#039; is assigned a value that is never used.
+,unreadVariable,style,Variable &#039;cachinate_ln2&#039; is assigned a value that is never used.
+,variableScope,style,The scope of the variable &#039;len&#039; can be reduced.
+,internalAstError,error,"Syntax Error: AST broken, binary operator &#039;=&#039; doesn&#039;t have two operands."
+,va_list_usedBeforeStarted,error,va_list &#039;ap&#039; used before va_start() was called.
+,nullPointerRedundantCheck,warning,Either the condition &#039;((void*)0)==prev&#039; is redundant or there is possible null pointer dereference: cur.
+,variableScope,style,The scope of the variable &#039;size_filepath&#039; can be reduced.
+,ConfigurationNotChecked,information,Skipping configuration &#039;_DEBUG;_TRACE;__FUNCTION__&#039; since the value of &#039;__FUNCTION__&#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+,uselessAssignmentArg,style,Assignment of function parameter has no effect outside the function.
+,variableScope,style,The scope of the variable &#039;ch&#039; can be reduced.
+,duplicateCondition,style,The if condition is the same as the previous if condition
+,unreadVariable,style,Variable &#039;n&#039; is assigned a value that is never used.
+,uninitStructMember,error,Uninitialized struct member: preyers_havergrass.hametz_dilo
+,duplicateBreak,style,"Consecutive return, break, continue, goto or throw statements are unnecessary."
+,unreadVariable,style,Variable &#039;stonesoup_lsize&#039; is assigned a value that is never used.

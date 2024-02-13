@@ -1,0 +1,621 @@
+,@status,@severity,cwe->@id,results->result->description->#text,results->result->tool->@category,results->result->tool->@name,rule->@code,rule->@name,escalated_predicted,escalated_values_predicted,escalated_binary_predicted
+0,escalated,info,,Unnecessary semicolon.,,JSHint,JH--W032,Unnecessary semicolon,escalated,0.62473357,1
+1,escalated,info,,Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (modInfo),,JSHint,JH--W083,Don't make functions within a loop,escalated,0.5772657,1
+2,escalated,info,,Unnecessary semicolon.,,JSHint,JH--W032,Unnecessary semicolon,escalated,0.62473357,1
+3,escalated,info,,"Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (modInfo, console, modulesInfo)",,JSHint,JH--W083,Don't make functions within a loop,escalated,0.6560554,1
+4,escalated,info,,Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (spacesPerIndentLevel),,JSHint,JH--W083,Don't make functions within a loop,escalated,0.59910053,1
+5,escalated,info,,"Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (stringifyMessageSpec, stringifyEnum)",,JSHint,JH--W083,Don't make functions within a loop,escalated,0.59910053,1
+6,false-positive,info,,'async functions' is only available in ES8 (use 'esversion: 8').,,JSHint,JH--W119,Use of ES6 extension,escalated,0.67423046,1
+7,escalated,info,,Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (modInfo),,JSHint,JH--W083,Don't make functions within a loop,escalated,0.5772657,1
+8,escalated,info,,"Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (identsArr, idents)",,JSHint,JH--W083,Don't make functions within a loop,escalated,0.59910053,1
+9,false-positive,info,,'async functions' is only available in ES8 (use 'esversion: 8').,,JSHint,JH--W119,Use of ES6 extension,escalated,0.67423046,1
+10,false-positive,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+11,escalated,info,,"Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (stringifyMessageSpecMember, spacesPerIndentLevel, stringifyEnum)",,JSHint,JH--W083,Don't make functions within a loop,escalated,0.59910053,1
+12,escalated,info,,"Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (stringifyMessageSpecMember, spacesPerIndentLevel)",,JSHint,JH--W083,Don't make functions within a loop,escalated,0.59910053,1
+13,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+14,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+15,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+16,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+17,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+18,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+19,false-positive,info,,"Import ""from utilities import *"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+20,false-positive,info,,"Import ""import json"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+21,false-positive,info,,"Import ""from SimpleWebSocketServer import SimpleWebSocketServer, WebSocket"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+22,escalated,info,398.0,Unused import os,,Pylint,PYLINT-W0611,Unused import,escalated,0.59581035,1
+23,false-positive,info,,"Import ""import traceback"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+24,false-positive,info,,"Import ""import os"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5891492,1
+25,escalated,info,398.0,Unused import base64,,Pylint,PYLINT-W0611,Unused import,escalated,0.59581035,1
+26,false-positive,info,,"Import ""import base64"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+27,false-positive,info,,"Import ""import time"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+28,false-positive,info,,"Import ""import uuid"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+29,escalated,info,398.0,Unused import time,,Pylint,PYLINT-W0611,Unused import,escalated,0.59581035,1
+30,false-positive,info,,"Import ""from whatsapp import WhatsAppWebClient"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+31,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+32,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+33,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+34,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+35,escalated,info,,"standard import ""import json"" should be placed before ""from google.protobuf import json_format""",,Pylint,PYLINT-C0411,Wrong Import Order,escalated,0.59581035,1
+36,false-positive,info,99.0,Redefining built-in 'str',,Pylint,rule-410f759ae99f23256b6e08025a5f69a2e75c5191f98138371e845c83379bd593,Resource Injection,escalated,0.59581035,1
+37,false-positive,info,99.0,Redefining built-in 'str',,Pylint,rule-410f759ae99f23256b6e08025a5f69a2e75c5191f98138371e845c83379bd593,Resource Injection,escalated,0.59581035,1
+38,false-positive,info,99.0,Redefining built-in 'str',,Pylint,rule-410f759ae99f23256b6e08025a5f69a2e75c5191f98138371e845c83379bd593,Resource Injection,escalated,0.59581035,1
+39,false-positive,info,99.0,Redefining built-in 'str',,Pylint,rule-410f759ae99f23256b6e08025a5f69a2e75c5191f98138371e845c83379bd593,Resource Injection,escalated,0.59581035,1
+40,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+41,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+42,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+43,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+44,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+45,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+46,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+47,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+48,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+49,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+50,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+51,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+52,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+53,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+54,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+55,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+56,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+57,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+58,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+59,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+60,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+61,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+62,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+63,escalated,info,,Bad escaping of EOL. Use option multistr if needed.,,JSHint,JH--W043,Bad escaping of EOL,escalated,0.62473357,1
+64,false-positive,info,,"Import ""from google.protobuf import reflection as _reflection"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+65,false-positive,info,,"Import ""from google.protobuf import descriptor as _descriptor"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5775834,1
+66,false-positive,info,,"Import ""from google.protobuf import message as _message"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+67,false-positive,info,,"Import ""from google.protobuf import symbol_database as _symbol_database"" should be placed at the top of the module",,Pylint,PYLINT-C0413,Wrong Import Position,escalated,0.5498446,1
+68,escalated,info,,Consider using ternary (lambda x: x if sys.version_info[0] &lt; 3 else lambda x: x.encode('latin1')),,Pylint,PYLINT-R1706,Consider using ternary,escalated,0.59581035,1
+69,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+70,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+71,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+72,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+73,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+74,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+75,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+76,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+77,false-positive,info,,,,,JH--W004,Function already defined,escalated,0.68535924,1
+78,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+79,false-positive,info,,,,,JH--W004,Function already defined,escalated,0.68535924,1
+80,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+81,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+82,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+83,false-positive,info,398.0,,,,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.6474311,1
+84,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+85,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+86,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+87,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+88,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+89,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+90,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+91,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+92,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+93,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+94,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+95,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+96,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+97,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+98,false-positive,info,,'a' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.686685,1
+99,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+100,escalated,info,,,,,JH--W040,Possible strict violation,escalated,0.62328947,1
+101,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+102,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+103,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+104,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+105,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+106,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+107,false-positive,info,,,,,JH--W004,Function already defined,escalated,0.68535924,1
+108,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+109,escalated,info,,"If a strict mode function is executed using function invocation, its 'this' value will be undefined.",,JSHint,JH--W040,Possible strict violation,escalated,0.62473357,1
+110,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+111,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+112,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+113,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+114,escalated,info,,,,,JH--W058,Missing '()' invoking constructor,escalated,0.62328947,1
+115,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+116,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+117,escalated,info,398.0,The for-in loop variable 'c' should be explicitly scoped with var to avoid pollution.,Best Practices,PMD,PMD-Basic Ecmascript-ScopeForInVariable,For-in loop variable not explicitly scoped,escalated,0.76227295,1
+118,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+119,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+120,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+121,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+122,false-positive,info,,,,,JH--W004,Function already defined,escalated,0.68535924,1
+123,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+124,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+125,escalated,info,,'escape' is not defined.,,JSHint,JH--W117,Not defined,escalated,0.62126976,1
+126,false-positive,info,,A leading decimal point can be confused with a dot: '.5'.,,JSHint,JH--W008,A leading decimal point can be confused with a dot,escalated,0.62473357,1
+127,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+128,false-positive,info,,,,,JH--W004,Function already defined,escalated,0.68535924,1
+129,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+130,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+131,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+132,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+133,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+134,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+135,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+136,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+137,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+138,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+139,escalated,info,,,,,JH--W040,Possible strict violation,escalated,0.62328947,1
+140,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+141,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+142,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+143,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+144,false-positive,info,,'b' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.66265184,1
+145,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+146,escalated,info,,,,,JH--W117,Not defined,escalated,0.6198205,1
+147,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+148,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+149,false-positive,info,,'h' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.69644564,1
+150,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+151,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+152,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+153,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+154,false-positive,info,,'d' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.686685,1
+155,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+156,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+157,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+158,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+159,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+160,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+161,false-positive,info,,,,,JH--W008,A leading decimal point can be confused with a dot,escalated,0.62328947,1
+162,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+163,false-positive,info,,'b' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.66265184,1
+164,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+165,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+166,escalated,info,398.0,The for-in loop variable 'b' should be explicitly scoped with var to avoid pollution.,Best Practices,PMD,PMD-Basic Ecmascript-ScopeForInVariable,For-in loop variable not explicitly scoped,escalated,0.7395228,1
+167,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+168,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+169,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+170,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+171,escalated,info,398.0,The for-in loop variable 'd' should be explicitly scoped with var to avoid pollution.,Best Practices,PMD,PMD-Basic Ecmascript-ScopeForInVariable,For-in loop variable not explicitly scoped,escalated,0.7395228,1
+172,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+173,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+174,escalated,info,,"If a strict mode function is executed using function invocation, its 'this' value will be undefined.",,JSHint,JH--W040,Possible strict violation,escalated,0.62473357,1
+175,false-positive,info,,"Use the function form of ""use strict"".",,JSHint,JH--W097,Use function form of 'use strict',False,0.49787515,0
+176,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+177,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+178,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+179,escalated,info,398.0,The for-in loop variable 'c' should be explicitly scoped with var to avoid pollution.,Best Practices,PMD,PMD-Basic Ecmascript-ScopeForInVariable,For-in loop variable not explicitly scoped,escalated,0.76227295,1
+180,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+181,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+182,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+183,escalated,info,,,,,JH--W040,Possible strict violation,escalated,0.62328947,1
+184,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+185,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+186,false-positive,info,,A leading decimal point can be confused with a dot: '.5'.,,JSHint,JH--W008,A leading decimal point can be confused with a dot,escalated,0.62473357,1
+187,false-positive,info,398.0,Avoid using global variables.,Best Practices,PMD,PMD-Basic Ecmascript-GlobalVariable,Undeclared variables are global by default,escalated,0.7705772,1
+188,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+189,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+190,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+191,escalated,info,,,,,JH--W058,Missing '()' invoking constructor,escalated,0.62328947,1
+192,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+193,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+194,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+195,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+196,false-positive,info,,A leading decimal point can be confused with a dot: '.5'.,,JSHint,JH--W008,A leading decimal point can be confused with a dot,escalated,0.62473357,1
+197,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+198,false-positive,info,,'a' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.686685,1
+199,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+200,escalated,info,,'unescape' is not defined.,,JSHint,JH--W117,Not defined,escalated,0.62126976,1
+201,escalated,info,,'document' is not defined.,,JSHint,JH--W117,Not defined,escalated,0.62126976,1
+202,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+203,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+204,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+205,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+206,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+207,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+208,false-positive,info,,'b' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.66265184,1
+209,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+210,false-positive,info,,'d' used out of scope.,,JSHint,JH--W038,Use out of scope,escalated,0.62473357,1
+211,false-positive,info,,'h' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.69644564,1
+212,false-positive,info,,'a' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.686685,1
+213,false-positive,info,,,,,JH--W004,Function already defined,escalated,0.68535924,1
+214,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+215,escalated,info,,"If a strict mode function is executed using function invocation, its 'this' value will be undefined.",,JSHint,JH--W040,Possible strict violation,escalated,0.62473357,1
+216,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+217,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+218,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+219,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+220,false-positive,info,,'d' used out of scope.,,JSHint,JH--W038,Use out of scope,escalated,0.62473357,1
+221,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+222,escalated,info,,Expected a conditional expression and instead saw an assignment.,,JSHint,JH--W084,Expected conditional expression and saw an assignment,escalated,0.62473357,1
+223,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+224,escalated,info,,Missing '()' invoking a constructor.,,JSHint,JH--W058,Missing '()' invoking constructor,escalated,0.62473357,1
+225,escalated,info,,Label 'a' on try statement.,,JSHint,JH--W028,Label on statement,escalated,0.62473357,1
+226,escalated,info,,,,,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.68876666,1
+227,false-positive,info,,'c' is already defined.,,JSHint,JH--W004,Function already defined,escalated,0.686685,1
+228,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+229,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+230,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+231,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+232,escalated,info,,Expected an assignment or function call and instead saw an expression.,,JSHint,JH--W030,Expected an assignment or function call and saw an expression,escalated,0.6854048,1
+233,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+234,false-positive,info,561.0,Unused variable 'i',,Pylint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.71923643,1
+235,false-positive,info,561.0,Unused variable 'i',,Pylint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.71923643,1
+236,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+237,false-positive,info,,"Unnecessary ""else"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.606517,1
+238,false-positive,info,561.0,Unused variable 'i',,Pylint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.71923643,1
+239,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+240,false-positive,info,561.0,Unused variable 'i',,Pylint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.71923643,1
+241,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+242,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+243,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+244,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+245,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+246,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+247,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+248,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+249,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+250,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+251,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+252,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+253,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+254,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+255,false-positive,info,99.0,Redefining built-in 'str',,Pylint,rule-410f759ae99f23256b6e08025a5f69a2e75c5191f98138371e845c83379bd593,Resource Injection,escalated,0.59581035,1
+256,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+257,false-positive,info,99.0,Redefining built-in 'bytes',,Pylint,rule-410f759ae99f23256b6e08025a5f69a2e75c5191f98138371e845c83379bd593,Resource Injection,escalated,0.59581035,1
+258,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+259,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+260,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+261,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+262,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+263,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+264,escalated,info,398.0,,,,PYLINT-W0611,Unused import,escalated,0.62328947,1
+265,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+266,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+267,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+268,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+269,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+270,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+271,escalated,info,398.0,Trailing whitespace,,Pylint,PYLINT-C0303,Trailing whitespace,escalated,0.67740214,1
+272,false-positive,info,,"Unnecessary ""elif"" after ""return""",,Pylint,PYLINT-R1705,Unnecessary else after return,escalated,0.5645481,1
+273,escalated,low,561.0,'d' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.73265135,1
+274,escalated,low,561.0,'_0' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.6735683,1
+275,escalated,low,561.0,'d' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.73265135,1
+276,escalated,low,561.0,'req' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+277,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+278,escalated,low,561.0,'e' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7218058,1
+279,escalated,low,561.0,'e' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7218058,1
+280,escalated,low,561.0,'e' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7218058,1
+281,escalated,low,561.0,'_' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+282,escalated,low,561.0,'fs' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+283,escalated,low,561.0,'path' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+284,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+285,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+286,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+287,escalated,low,398.0,Unnecessary semicolon.,,ESLint,ESLINT-no-extra-semi,Disallow unnecessary semicolons,escalated,0.57557255,1
+288,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+289,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+290,escalated,low,398.0,Unnecessary semicolon.,,ESLint,ESLINT-no-extra-semi,Disallow unnecessary semicolons,escalated,0.57557255,1
+291,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+292,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+293,escalated,low,561.0,'backendResponse' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+294,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+295,escalated,low,561.0,'_' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+296,escalated,low,561.0,'backendResponse' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+297,escalated,low,561.0,'fs' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+298,escalated,low,561.0,'path' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+299,escalated,low,561.0,'req' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+300,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+301,escalated,low,398.0,Return values from promise executor functions cannot be read.,,ESLint,ESLINT-no-promise-executor-return,Disallow returning values from Promise executor functions,escalated,0.57557255,1
+302,escalated,low,665.0,Undefined variable 'reload',,Pylint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5067881,1
+303,escalated,low,665.0,Undefined variable 'whatsapp',,Pylint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5543205,1
+304,escalated,low,388.0,No exception type(s) specified,,Pylint,rule-e3f0972459f483bc18a68eed953b03a6c7e7fb7e495bc2047dd97eaba40f966b,Error Handling,escalated,0.5431049,1
+305,escalated,low,561.0,'e' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7218058,1
+306,escalated,low,561.0,'AESEncrypt' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+307,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+308,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+309,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+310,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+311,escalated,low,561.0,'obj' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+312,escalated,low,561.0,'sleep' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+313,escalated,low,561.0,'reject' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+314,escalated,low,561.0,'responseTimeout' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.75022906,1
+315,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+316,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+317,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+318,escalated,low,561.0,'node' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+319,escalated,low,398.0,Do not access Object.prototype method 'hasOwnProperty' from target object.,,ESLint,ESLINT-no-prototype-builtins,Disallow use of objectprototypes builtins directly,escalated,0.57557255,1
+320,escalated,low,561.0,'jsonTree' is assigned a value but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7020885,1
+321,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7452775,1
+322,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7452775,1
+323,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7452775,1
+324,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7452775,1
+325,escalated,low,704.0,Redundant Boolean call.,,ESLint,ESLINT-no-extra-boolean-cast,Disallow unnecessary boolean casts,escalated,0.57557255,1
+326,escalated,low,561.0,'i' is defined but never used.,,ESLint,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.7452775,1
+327,escalated,low,398.0,Do not access Object.prototype method 'hasOwnProperty' from target object.,,ESLint,ESLINT-no-prototype-builtins,Disallow use of objectprototypes builtins directly,escalated,0.57557255,1
+328,escalated,low,561.0,,,,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.69867224,1
+329,escalated,low,398.0,'a' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.58096075,1
+330,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5769924,1
+331,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5769924,1
+332,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5769924,1
+333,escalated,low,398.0,'a' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.58096075,1
+334,escalated,low,398.0,Empty block statement.,,ESLint,ESLINT-no-empty,Disallow empty block statements,escalated,0.57557255,1
+335,escalated,low,398.0,Do not access Object.prototype method 'hasOwnProperty' from target object.,,ESLint,ESLINT-no-prototype-builtins,Disallow use of objectprototypes builtins directly,escalated,0.57557255,1
+336,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5769924,1
+337,escalated,low,561.0,,,,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.69867224,1
+338,escalated,low,561.0,,,,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.69867224,1
+339,escalated,low,561.0,,,,rule-99e6d22e1a4011529c550091dd6e6cfd13dd4ca63e90fe1c680512e31cff8261,Dead Code,escalated,0.69867224,1
+340,escalated,low,398.0,'h' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5920583,1
+341,escalated,low,398.0,'b' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.55408406,1
+342,escalated,low,398.0,'h' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5920583,1
+343,escalated,low,398.0,'d' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.58096075,1
+344,escalated,low,489.0,,,,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5936746,1
+345,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5769924,1
+346,escalated,low,398.0,,,,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.5769924,1
+347,escalated,low,398.0,,,,ESLINT-no-prototype-builtins,Disallow use of objectprototypes builtins directly,escalated,0.5715908,1
+348,escalated,low,398.0,'b' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.55408406,1
+349,escalated,low,398.0,Do not access Object.prototype method 'hasOwnProperty' from target object.,,ESLint,ESLINT-no-prototype-builtins,Disallow use of objectprototypes builtins directly,escalated,0.57557255,1
+350,escalated,low,398.0,,,,ESLINT-no-useless-escape,Disallow unnecessary escape usage,escalated,0.5715908,1
+351,escalated,low,398.0,'c' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.58096075,1
+352,escalated,low,398.0,'b' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.55408406,1
+353,escalated,low,398.0,'a' is already defined.,,ESLint,ESLINT-no-redeclare,Disallow variable redeclaration,escalated,0.58096075,1
+354,escalated,low,489.0,Unexpected console statement.,,ESLint,rule-626705a39e944c3161f73c8666fcb4e2bb8e294b6c4ecbb1f00aa4ab76f8db3d,Leftover Debug Code,escalated,0.5578966,1
+355,escalated,low,398.0,Do not access Object.prototype method 'hasOwnProperty' from target object.,,ESLint,ESLINT-no-prototype-builtins,Disallow use of objectprototypes builtins directly,escalated,0.57557255,1
+356,false-positive,low,,"Either all return statements in a function should return an expression, or none of them should.",,Pylint,PYLINT-R1710,Inconsistent return statements,escalated,0.5431049,1
+357,escalated,low,665.0,Undefined variable 'strng',,Pylint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5067881,1
+358,false-positive,low,,"Either all return statements in a function should return an expression, or none of them should.",,Pylint,PYLINT-R1710,Inconsistent return statements,escalated,0.5431049,1
+359,false-positive,low,,"Either all return statements in a function should return an expression, or none of them should.",,Pylint,PYLINT-R1710,Inconsistent return statements,escalated,0.5431049,1
+360,false-positive,low,,"Either all return statements in a function should return an expression, or none of them should.",,Pylint,PYLINT-R1710,Inconsistent return statements,escalated,0.5431049,1
+361,false-positive,low,227.0,No value for argument 'littleEndian' in method call,,Pylint,rule-dc56fd6c6aaaf7aef3e91a691e1f8bd8f7311763a2d3286fce16c6c5cf52b5e2,API Abuse,escalated,0.5431049,1
+362,escalated,low,665.0,Undefined variable 'e',,Pylint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5067881,1
+363,false-positive,low,,Too many boolean expressions in if statement (6/5),,Pylint,PYLINT-R0916,Too many boolean expressions,escalated,0.5431049,1
+364,escalated,low,,Value 'str' is unsubscriptable,,Pylint,PYLINT-E1136,Unscriptable Object,escalated,0.5431049,1
+365,false-positive,low,227.0,No value for argument 'littleEndian' in method call,,Pylint,rule-dc56fd6c6aaaf7aef3e91a691e1f8bd8f7311763a2d3286fce16c6c5cf52b5e2,API Abuse,escalated,0.5431049,1
+366,false-positive,low,227.0,No value for argument 'littleEndian' in method call,,Pylint,rule-dc56fd6c6aaaf7aef3e91a691e1f8bd8f7311763a2d3286fce16c6c5cf52b5e2,API Abuse,escalated,0.5431049,1
+367,escalated,medium,398.0,"""lodash"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+368,escalated,medium,398.0,"""ws"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+369,escalated,medium,398.0,"""acorn-walk"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+370,escalated,medium,398.0,"""acorn"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+371,escalated,medium,398.0,"""request-promise-native"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.45043817,0
+372,escalated,medium,398.0,"""lodash"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+373,escalated,medium,398.0,"""express"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+374,escalated,medium,398.0,"""ws"" is not found.",node,ESLint,ESLINT-NODE-no-missing-require,Disallow 'require()' expressions which import non-existence modules,False,0.44074064,0
+375,escalated,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5041212,1
+376,escalated,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5041212,1
+377,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+378,escalated,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5041212,1
+379,escalated,medium,665.0,'axlsign' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+380,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+381,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+382,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+383,escalated,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+384,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+385,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+386,escalated,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5041212,1
+387,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+388,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+389,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+390,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+391,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+392,escalated,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5041212,1
+393,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+394,escalated,medium,665.0,'QRCode' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+395,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+396,escalated,medium,665.0,'axlsign' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+397,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+398,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+399,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+400,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+401,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+402,escalated,medium,665.0,'QRCode' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+403,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+404,escalated,medium,665.0,'sjcl' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.50110495,1
+405,false-positive,medium,665.0,'bootbox' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+406,false-positive,medium,665.0,'BootstrapStep' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+407,false-positive,medium,665.0,'jsonTree' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+408,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+409,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+410,false-positive,medium,665.0,'BootstrapStep' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+411,false-positive,medium,665.0,,,,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5041212,1
+412,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+413,false-positive,medium,665.0,'BootstrapStep' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+414,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+415,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+416,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+417,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+418,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+419,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+420,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+421,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+422,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+423,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+424,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+425,false-positive,medium,665.0,'WebSocketClient' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+426,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+427,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+428,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+429,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+430,false-positive,medium,665.0,'BootstrapStep' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+431,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+432,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+433,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+434,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+435,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+436,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+437,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+438,false-positive,medium,665.0,'BootstrapStep' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+439,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+440,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+441,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+442,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+443,false-positive,medium,665.0,'$' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.55464244,1
+444,escalated,medium,665.0,'initialize' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+445,escalated,medium,665.0,'UpdaterPromise' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+446,escalated,medium,665.0,'UpdaterPromise' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+447,escalated,medium,398.0,Read-only global 'console' should not be modified.,,ESLint,ESLINT-no-global-assign,Disallow assignment to native objects or read-only global variables,escalated,0.54449695,1
+448,escalated,medium,665.0,'define' is not defined.,,ESLint,rule-05fd548cb946f6aefd3831fe4f1fd046e1827757e07f877f3a087b0ed98a03bf,Initialization,escalated,0.5081905,1
+449,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+450,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+451,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+452,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+453,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+454,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+455,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+456,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+457,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+458,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+459,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+460,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+461,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+462,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+463,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+464,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+465,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+466,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+467,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+468,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+469,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+470,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.54765815,1
+471,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+472,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+473,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+474,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+475,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+476,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+477,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+478,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+479,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+480,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+481,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+482,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+483,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+484,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+485,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+486,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+487,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+488,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+489,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+490,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+491,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+492,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+493,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+494,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+495,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+496,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+497,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+498,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+499,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+500,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+501,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+502,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+503,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+504,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+505,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+506,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+507,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+508,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+509,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+510,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+511,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+512,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+513,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+514,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+515,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+516,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+517,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+518,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+519,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+520,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+521,escalated,high,77.0,Variable Assigned to Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.53554976,1
+522,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+523,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+524,escalated,high,77.0,Variable Assigned to Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.53554976,1
+525,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+526,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+527,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+528,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+529,escalated,high,,The function setTimeout can be unsafe,scanjs-rules,ESLint,ESLINT-SCANJS-RULES-call_setTimeout,Call setTimeout,escalated,0.6216579,1
+530,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+531,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+532,escalated,high,77.0,Variable Assigned to Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.53554976,1
+533,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+534,escalated,high,77.0,Variable Assigned to Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.53554976,1
+535,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+536,escalated,high,79.0,Non-HTML variable 'message' is used to store raw HTML,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+537,escalated,high,79.0,HTML passed in to function '$',xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+538,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+539,escalated,high,,The function setTimeout can be unsafe,scanjs-rules,ESLint,ESLINT-SCANJS-RULES-call_setTimeout,Call setTimeout,escalated,0.6216579,1
+540,escalated,high,79.0,,,,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.57762027,1
+541,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+542,escalated,high,,The function addEventListener can be unsafe,scanjs-rules,ESLint,ESLINT-SCANJS-RULES-call_addEventListener,Call addEventListener,escalated,0.56272936,1
+543,escalated,high,79.0,Non-HTML variable 'str' is used to store raw HTML,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6459625,1
+544,escalated,high,79.0,Unencoded input 'label' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+545,escalated,high,,The function addEventListener can be unsafe,scanjs-rules,ESLint,ESLINT-SCANJS-RULES-call_addEventListener,Call addEventListener,escalated,0.56272936,1
+546,escalated,high,79.0,Unencoded input 'val' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+547,escalated,high,79.0,,,,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.57762027,1
+548,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.54765815,1
+549,escalated,high,79.0,Unencoded input 'str' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+550,escalated,high,,The function addEventListener can be unsafe,scanjs-rules,ESLint,ESLINT-SCANJS-RULES-call_addEventListener,Call addEventListener,escalated,0.56272936,1
+551,escalated,high,79.0,Unencoded input 'sym[0]' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+552,escalated,high,79.0,,,,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.57762027,1
+553,escalated,high,79.0,Non-HTML variable 'str' is used to store raw HTML,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6459625,1
+554,escalated,high,79.0,Unencoded input 'self.type' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.58056134,1
+555,escalated,high,79.0,Unencoded input 'comma' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+556,escalated,high,79.0,Unencoded input 'self.type' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.58056134,1
+557,escalated,high,79.0,Unencoded input 'label' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+558,escalated,high,79.0,Non-HTML variable 'str' is used to store raw HTML,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6459625,1
+559,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+560,escalated,high,79.0,Unencoded input 'sym[1]' used in HTML context,xss,ESLint,rule-396ebe8bb0c3dc5d4eb2b5368a97688fdb0f2587416453645c3d06db2b216479,Cross-site Scripting (XSS),escalated,0.6402649,1
+561,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+562,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+563,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+564,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+565,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+566,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+567,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.54765815,1
+568,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+569,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+570,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+571,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+572,escalated,high,697.0,,,,rule-c271f2bb931810eef633f7c736d1dd934fbd6ed5f62ac8d8ea39ade811190622,Comparison,escalated,0.5574307,1
+573,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+574,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+575,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+576,escalated,high,310.0,,,,rule-59d771a5e4ef511d4d8b951a046780e3950d32fb4e93a55166d2fe6d18e8b8db,Cryptographic Issue,escalated,0.5574307,1
+577,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+578,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+579,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+580,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+581,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+582,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+583,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+584,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+585,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+586,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+587,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+588,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+589,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+590,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+591,escalated,high,,,,,ESLINT-SCANJS-RULES-call_addEventListener,Call addEventListener,escalated,0.5574307,1
+592,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+593,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+594,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+595,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+596,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+597,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+598,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+599,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+600,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+601,escalated,high,77.0,Function Call Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.54765815,1
+602,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+603,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+604,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+605,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+606,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+607,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+608,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+609,escalated,high,77.0,Variable Assigned to Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.53554976,1
+610,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+611,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+612,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+613,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+614,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+615,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+616,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1
+617,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+618,escalated,high,77.0,Generic Object Injection Sink,security,ESLint,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.602191,1
+619,escalated,high,77.0,,,,rule-5e8e5af630e323f31857c1cc395ce98e2bf222272a7adf06b13a4ba4154b1893,Command Injection,escalated,0.55839795,1

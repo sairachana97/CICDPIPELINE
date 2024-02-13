@@ -1,0 +1,2 @@
+output,@Name,target->defect->@Severity,target->defect->@Confidence,risk_level,risk_details
+True Positive,UseFlagsAttributeRule,Medium,High,Low,"b'{""scores"": {""attack_surface"": ""0.73"", ""base_finding"": ""43.20"", ""environmental"": ""0.38"", ""final"": ""12.15""}}'"

@@ -1,0 +1,2818 @@
+{
+        "filePath": "C:\\Users\\Rishabh Jain\\Desktop\\ESLint\\demo.js",
+        "messages": [{
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 1,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 1,
+                "endColumn": 80,
+                "fix": {
+                    "range": [2, 2],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 1,
+                "column": 80,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 2,
+                "endColumn": 1,
+                "fix": {
+                    "range": [79, 81],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-var",
+                "severity": 2,
+                "message": "Unexpected var, use let or const instead.",
+                "line": 2,
+                "column": 1,
+                "nodeType": "VariableDeclaration",
+                "messageId": "unexpectedVar",
+                "endLine": 2,
+                "endColumn": 15,
+                "fix": {
+                    "range": [81, 84],
+                    "text": "let"
+                }
+            }, {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'currentId' is defined but never used.",
+                "line": 2,
+                "column": 5,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 2,
+                "endColumn": 14
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 2,
+                "column": 15,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 3,
+                "endColumn": 1,
+                "fix": {
+                    "range": [95, 97],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-var",
+                "severity": 2,
+                "message": "Unexpected var, use let or const instead.",
+                "line": 3,
+                "column": 1,
+                "nodeType": "VariableDeclaration",
+                "messageId": "unexpectedVar",
+                "endLine": 3,
+                "endColumn": 11,
+                "fix": {
+                    "range": [97, 100],
+                    "text": "let"
+                }
+            }, {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'apple' is defined but never used.",
+                "line": 3,
+                "column": 5,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 3,
+                "endColumn": 10
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 3,
+                "column": 11,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 4,
+                "endColumn": 1,
+                "fix": {
+                    "range": [107, 109],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 4,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 5,
+                "endColumn": 1,
+                "fix": {
+                    "range": [109, 111],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 5,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 5,
+                "endColumn": 80,
+                "fix": {
+                    "range": [113, 113],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 5,
+                "column": 80,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 6,
+                "endColumn": 1,
+                "fix": {
+                    "range": [190, 192],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 6,
+                "column": 3,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 6,
+                "endColumn": 4
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 6,
+                "column": 72,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 7,
+                "endColumn": 1,
+                "fix": {
+                    "range": [263, 265],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-var",
+                "severity": 2,
+                "message": "Unexpected var, use let or const instead.",
+                "line": 7,
+                "column": 1,
+                "nodeType": "VariableDeclaration",
+                "messageId": "unexpectedVar",
+                "endLine": 15,
+                "endColumn": 3,
+                "fix": {
+                    "range": [265, 268],
+                    "text": "let"
+                }
+            }, {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'Global' is assigned a value but never used.",
+                "line": 7,
+                "column": 5,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 7,
+                "endColumn": 11
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 7,
+                "column": 15,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 8,
+                "endColumn": 1,
+                "fix": {
+                    "range": [279, 281],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 8,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 8,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 8,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 8,
+                "endColumn": 2,
+                "fix": {
+                    "range": [281, 282],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 8,
+                "column": 23,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 9,
+                "endColumn": 1,
+                "fix": {
+                    "range": [303, 305],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 9,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 9,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 9,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 9,
+                "endColumn": 2,
+                "fix": {
+                    "range": [305, 306],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 9,
+                "column": 19,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 10,
+                "endColumn": 1,
+                "fix": {
+                    "range": [323, 325],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 10,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 10,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 10,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 10,
+                "endColumn": 2,
+                "fix": {
+                    "range": [325, 326],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 10,
+                "column": 9,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 11,
+                "endColumn": 1,
+                "fix": {
+                    "range": [333, 335],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 11,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 11,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 11,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 11,
+                "endColumn": 3,
+                "fix": {
+                    "range": [335, 337],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 11,
+                "column": 19,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 12,
+                "endColumn": 1,
+                "fix": {
+                    "range": [353, 355],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 12,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 12,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 12,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 12,
+                "endColumn": 3,
+                "fix": {
+                    "range": [355, 357],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 12,
+                "column": 37,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 13,
+                "endColumn": 1,
+                "fix": {
+                    "range": [391, 393],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 13,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 13,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 13,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 13,
+                "endColumn": 3,
+                "fix": {
+                    "range": [393, 395],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 13,
+                "column": 20,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 14,
+                "endColumn": 1,
+                "fix": {
+                    "range": [412, 414],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "comma-dangle",
+                "severity": 2,
+                "message": "Missing trailing comma.",
+                "line": 13,
+                "column": 20,
+                "nodeType": "Property",
+                "messageId": "missing",
+                "endLine": 14,
+                "endColumn": 1,
+                "fix": {
+                    "range": [406, 416],
+                    "text": "'2470',\r\n\t}"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 14,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 14,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 14,
+                "column": 1,
+                "nodeType": "Punctuator",
+                "messageId": "wrongIndentation",
+                "endLine": 14,
+                "endColumn": 2,
+                "fix": {
+                    "range": [414, 415],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 14,
+                "column": 3,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 15,
+                "endColumn": 1,
+                "fix": {
+                    "range": [416, 418],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "comma-dangle",
+                "severity": 2,
+                "message": "Missing trailing comma.",
+                "line": 14,
+                "column": 3,
+                "nodeType": "Property",
+                "messageId": "missing",
+                "endLine": 15,
+                "endColumn": 1,
+                "fix": {
+                    "range": [415, 419],
+                    "text": "},\r\n}"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 15,
+                "column": 3,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 16,
+                "endColumn": 1,
+                "fix": {
+                    "range": [420, 422],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 16,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 17,
+                "endColumn": 1,
+                "fix": {
+                    "range": [422, 424],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 17,
+                "column": 64,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 18,
+                "endColumn": 1,
+                "fix": {
+                    "range": [487, 489],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 87. Maximum allowed is 80.",
+                "line": 18,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 18,
+                "endColumn": 88
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 18,
+                "column": 88,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 19,
+                "endColumn": 1,
+                "fix": {
+                    "range": [576, 578],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 19,
+                "column": 67,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 20,
+                "endColumn": 1,
+                "fix": {
+                    "range": [644, 646],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 20,
+                "column": 68,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 21,
+                "endColumn": 1,
+                "fix": {
+                    "range": [713, 715],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 21,
+                "column": 29,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 22,
+                "endColumn": 1,
+                "fix": {
+                    "range": [743, 745],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 22,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 23,
+                "endColumn": 1,
+                "fix": {
+                    "range": [745, 747],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 23,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 23,
+                "endColumn": 36,
+                "fix": {
+                    "range": [749, 749],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 23,
+                "column": 36,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 24,
+                "endColumn": 1,
+                "fix": {
+                    "range": [782, 784],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "padded-blocks",
+                "severity": 2,
+                "message": "Block must not be padded by blank lines.",
+                "line": 24,
+                "column": 29,
+                "nodeType": "BlockStatement",
+                "messageId": "neverPadBlock",
+                "endLine": 26,
+                "endColumn": 2,
+                "fix": {
+                    "range": [813, 817],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "space-before-blocks",
+                "severity": 2,
+                "message": "Missing space before opening brace.",
+                "line": 24,
+                "column": 29,
+                "nodeType": "BlockStatement",
+                "messageId": "missingSpace",
+                "endLine": 30,
+                "endColumn": 2,
+                "fix": {
+                    "range": [812, 812],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 24,
+                "column": 30,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 25,
+                "endColumn": 1,
+                "fix": {
+                    "range": [813, 815],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 25,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 26,
+                "endColumn": 1,
+                "fix": {
+                    "range": [815, 817],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 26,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 26,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 26,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 26,
+                "endColumn": 2,
+                "fix": {
+                    "range": [817, 818],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 26,
+                "column": 2,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 26,
+                "endColumn": 29,
+                "fix": {
+                    "range": [820, 820],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 26,
+                "column": 29,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 27,
+                "endColumn": 1,
+                "fix": {
+                    "range": [845, 847],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 27,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 28,
+                "endColumn": 1,
+                "fix": {
+                    "range": [847, 849],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 28,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 28,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 28,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 28,
+                "endColumn": 2,
+                "fix": {
+                    "range": [849, 850],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 28,
+                "column": 2,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 28,
+                "endColumn": 33,
+                "fix": {
+                    "range": [852, 852],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 28,
+                "column": 33,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 29,
+                "endColumn": 1,
+                "fix": {
+                    "range": [881, 883],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 29,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 29,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 29,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 29,
+                "endColumn": 2,
+                "fix": {
+                    "range": [883, 884],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 29,
+                "column": 15,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 30,
+                "endColumn": 1,
+                "fix": {
+                    "range": [897, 899],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 30,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 31,
+                "endColumn": 1,
+                "fix": {
+                    "range": [902, 904],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 31,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 32,
+                "endColumn": 1,
+                "fix": {
+                    "range": [904, 906],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 32,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 32,
+                "endColumn": 70,
+                "fix": {
+                    "range": [908, 908],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 32,
+                "column": 70,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 33,
+                "endColumn": 1,
+                "fix": {
+                    "range": [975, 977],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "require-jsdoc",
+                "severity": 2,
+                "message": "Missing JSDoc comment.",
+                "line": 33,
+                "column": 1,
+                "nodeType": "FunctionDeclaration",
+                "messageId": "missingJSDocComment",
+                "endLine": 79,
+                "endColumn": 2
+            }, {
+                "ruleId": "space-before-blocks",
+                "severity": 2,
+                "message": "Missing space before opening brace.",
+                "line": 33,
+                "column": 22,
+                "nodeType": "BlockStatement",
+                "messageId": "missingSpace",
+                "endLine": 79,
+                "endColumn": 2,
+                "fix": {
+                    "range": [998, 998],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 33,
+                "column": 23,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 34,
+                "endColumn": 1,
+                "fix": {
+                    "range": [999, 1001],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 34,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 34,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 34,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 34,
+                "endColumn": 2,
+                "fix": {
+                    "range": [1001, 1002],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 34,
+                "column": 64,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 35,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1064, 1066],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 35,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 35,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 35,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 35,
+                "endColumn": 2,
+                "fix": {
+                    "range": [1066, 1067],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "padded-blocks",
+                "severity": 2,
+                "message": "Block must not be padded by blank lines.",
+                "line": 35,
+                "column": 45,
+                "nodeType": "BlockStatement",
+                "messageId": "neverPadBlock",
+                "endLine": 37,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1111, 1115],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "space-before-blocks",
+                "severity": 2,
+                "message": "Missing space before opening brace.",
+                "line": 35,
+                "column": 45,
+                "nodeType": "BlockStatement",
+                "messageId": "missingSpace",
+                "endLine": 54,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1110, 1110],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 35,
+                "column": 46,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 36,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1111, 1113],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 36,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 37,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1113, 1115],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 37,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 37,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 37,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 37,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1115, 1117],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 37,
+                "column": 32,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 38,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1146, 1148],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 38,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 38,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 38,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 38,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1148, 1150],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 38,
+                "column": 70,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 39,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1217, 1219],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 39,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 39,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 39,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 39,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1219, 1221],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 39,
+                "column": 5,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 39,
+                "endColumn": 6
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 39,
+                "column": 70,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 40,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1288, 1290],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 40,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 40,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 40,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 40,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1290, 1292],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 40,
+                "column": 5,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 40,
+                "endColumn": 6
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 40,
+                "column": 72,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 41,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1361, 1363],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 41,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 41,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 41,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 41,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1363, 1365],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 41,
+                "column": 5,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 41,
+                "endColumn": 6
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 41,
+                "column": 38,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 42,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1400, 1402],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 42,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 43,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1402, 1404],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 43,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 43,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 43,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 43,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1404, 1406],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 43,
+                "column": 24,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 44,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1427, 1429],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 44,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 44,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 44,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 44,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1429, 1431],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "no-invalid-this",
+                "severity": 2,
+                "message": "Unexpected 'this'.",
+                "line": 44,
+                "column": 10,
+                "nodeType": "ThisExpression",
+                "messageId": "unexpectedThis",
+                "endLine": 44,
+                "endColumn": 14
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 44,
+                "column": 16,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 44,
+                "endColumn": 17
+            }, {
+                "ruleId": "no-trailing-spaces",
+                "severity": 2,
+                "message": "Trailing spaces not allowed.",
+                "line": 44,
+                "column": 73,
+                "nodeType": "Program",
+                "messageId": "trailingSpace",
+                "endLine": 44,
+                "endColumn": 74,
+                "fix": {
+                    "range": [1501, 1502],
+                    "text": ""
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 44,
+                "column": 74,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 45,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1502, 1504],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 45,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 45,
+                "endColumn": 7
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 6 tabs.",
+                "line": 45,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 45,
+                "endColumn": 7,
+                "fix": {
+                    "range": [1504, 1510],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 45,
+                "column": 63,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 46,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1566, 1568],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 46,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 47,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1568, 1570],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 47,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 47,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 47,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 47,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1570, 1572],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 47,
+                "column": 28,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 48,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1597, 1599],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 48,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 48,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 48,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 48,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1599, 1601],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 48,
+                "column": 24,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 49,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1622, 1624],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 49,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 50,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1624, 1626],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 50,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 50,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 50,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 50,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1626, 1628],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 50,
+                "column": 50,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 51,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1675, 1677],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 51,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 51,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 51,
+                "column": 1,
+                "nodeType": "Keyword",
+                "messageId": "wrongIndentation",
+                "endLine": 51,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1677, 1679],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "no-var",
+                "severity": 2,
+                "message": "Unexpected var, use let or const instead.",
+                "line": 51,
+                "column": 3,
+                "nodeType": "VariableDeclaration",
+                "messageId": "unexpectedVar",
+                "endLine": 51,
+                "endColumn": 28,
+                "fix": {
+                    "range": [1679, 1682],
+                    "text": "let"
+                }
+            }, {
+                "ruleId": "no-unused-vars",
+                "severity": 2,
+                "message": "'id' is assigned a value but never used.",
+                "line": 51,
+                "column": 7,
+                "nodeType": "Identifier",
+                "messageId": "unusedVar",
+                "endLine": 51,
+                "endColumn": 9
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 51,
+                "column": 28,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 52,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1704, 1706],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 52,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 53,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1706, 1708],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 83. Maximum allowed is 80.",
+                "line": 53,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 53,
+                "endColumn": 82
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 53,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 53,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 53,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 53,
+                "endColumn": 3,
+                "fix": {
+                    "range": [1708, 1710],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "no-trailing-spaces",
+                "severity": 2,
+                "message": "Trailing spaces not allowed.",
+                "line": 53,
+                "column": 81,
+                "nodeType": "Program",
+                "messageId": "trailingSpace",
+                "endLine": 53,
+                "endColumn": 82,
+                "fix": {
+                    "range": [1788, 1789],
+                    "text": ""
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 53,
+                "column": 82,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 54,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1789, 1791],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 54,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 54,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 54,
+                "column": 1,
+                "nodeType": "Punctuator",
+                "messageId": "wrongIndentation",
+                "endLine": 54,
+                "endColumn": 2,
+                "fix": {
+                    "range": [1791, 1792],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 54,
+                "column": 5,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 55,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1795, 1797],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 55,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 56,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1797, 1799],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 87. Maximum allowed is 80.",
+                "line": 56,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 56,
+                "endColumn": 87
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 56,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 56,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 56,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 56,
+                "endColumn": 2,
+                "fix": {
+                    "range": [1799, 1800],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 56,
+                "column": 87,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 57,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1885, 1887],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 91. Maximum allowed is 80.",
+                "line": 57,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 57,
+                "endColumn": 90
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 57,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 57,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 57,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 57,
+                "endColumn": 2,
+                "fix": {
+                    "range": [1887, 1888],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 57,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 57,
+                "endColumn": 5
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 57,
+                "column": 90,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 58,
+                "endColumn": 1,
+                "fix": {
+                    "range": [1976, 1978],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 92. Maximum allowed is 80.",
+                "line": 58,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 58,
+                "endColumn": 91
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 58,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 58,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 58,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 58,
+                "endColumn": 2,
+                "fix": {
+                    "range": [1978, 1979],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 58,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 58,
+                "endColumn": 5
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 58,
+                "column": 91,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 59,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2068, 2070],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 90. Maximum allowed is 80.",
+                "line": 59,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 59,
+                "endColumn": 89
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 59,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 59,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 59,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 59,
+                "endColumn": 2,
+                "fix": {
+                    "range": [2070, 2071],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 59,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 59,
+                "endColumn": 5
+            }, {
+                "ruleId": "no-trailing-spaces",
+                "severity": 2,
+                "message": "Trailing spaces not allowed.",
+                "line": 59,
+                "column": 88,
+                "nodeType": "Program",
+                "messageId": "trailingSpace",
+                "endLine": 59,
+                "endColumn": 89,
+                "fix": {
+                    "range": [2157, 2158],
+                    "text": ""
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 59,
+                "column": 89,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 60,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2158, 2160],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 60,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 60,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 60,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 60,
+                "endColumn": 2,
+                "fix": {
+                    "range": [2160, 2161],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 60,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 60,
+                "endColumn": 5
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 60,
+                "column": 55,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 61,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2214, 2216],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 61,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 61,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 61,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 61,
+                "endColumn": 2,
+                "fix": {
+                    "range": [2216, 2217],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "space-before-blocks",
+                "severity": 2,
+                "message": "Missing space before opening brace.",
+                "line": 61,
+                "column": 72,
+                "nodeType": "BlockStatement",
+                "messageId": "missingSpace",
+                "endLine": 75,
+                "endColumn": 3,
+                "fix": {
+                    "range": [2287, 2287],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 61,
+                "column": 73,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 62,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2288, 2290],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 62,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 62,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 62,
+                "column": 1,
+                "nodeType": "Identifier",
+                "messageId": "wrongIndentation",
+                "endLine": 62,
+                "endColumn": 3,
+                "fix": {
+                    "range": [2290, 2292],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 62,
+                "column": 24,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 63,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2313, 2315],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 63,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 64,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2315, 2317],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 64,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 64,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 64,
+                "column": 1,
+                "nodeType": "Keyword",
+                "messageId": "wrongIndentation",
+                "endLine": 64,
+                "endColumn": 3,
+                "fix": {
+                    "range": [2317, 2319],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "keyword-spacing",
+                "severity": 2,
+                "message": "Expected space(s) after \"switch\".",
+                "line": 64,
+                "column": 3,
+                "nodeType": null,
+                "messageId": "expectedAfter",
+                "endLine": 64,
+                "endColumn": 9,
+                "fix": {
+                    "range": [2325, 2325],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "space-before-blocks",
+                "severity": 2,
+                "message": "Missing space before opening brace.",
+                "line": 64,
+                "column": 25,
+                "nodeType": "Punctuator",
+                "messageId": "missingSpace",
+                "endLine": 64,
+                "endColumn": 26,
+                "fix": {
+                    "range": [2341, 2341],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 64,
+                "column": 26,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 65,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2342, 2344],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 65,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 65,
+                "endColumn": 4
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 6 spaces but found 3 tabs.",
+                "line": 65,
+                "column": 1,
+                "nodeType": "Keyword",
+                "messageId": "wrongIndentation",
+                "endLine": 65,
+                "endColumn": 4,
+                "fix": {
+                    "range": [2344, 2347],
+                    "text": "      "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 65,
+                "column": 16,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 66,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2359, 2361],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 66,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 67,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2361, 2363],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 67,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 67,
+                "endColumn": 5
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 8 spaces but found 4 tabs.",
+                "line": 67,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 67,
+                "endColumn": 5,
+                "fix": {
+                    "range": [2363, 2367],
+                    "text": "        "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 67,
+                "column": 43,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 68,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2405, 2407],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 68,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 68,
+                "endColumn": 5
+            }, {
+                "ruleId": "no-trailing-spaces",
+                "severity": 2,
+                "message": "Trailing spaces not allowed.",
+                "line": 68,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "trailingSpace",
+                "endLine": 68,
+                "endColumn": 5,
+                "fix": {
+                    "range": [2407, 2411],
+                    "text": ""
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 68,
+                "column": 5,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 69,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2411, 2413],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 69,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 69,
+                "endColumn": 5
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 8 spaces but found 4 tabs.",
+                "line": 69,
+                "column": 1,
+                "nodeType": "Keyword",
+                "messageId": "wrongIndentation",
+                "endLine": 69,
+                "endColumn": 5,
+                "fix": {
+                    "range": [2413, 2417],
+                    "text": "        "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 69,
+                "column": 11,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 70,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2423, 2425],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 70,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 70,
+                "endColumn": 4
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 6 spaces but found 3 tabs.",
+                "line": 70,
+                "column": 1,
+                "nodeType": "Keyword",
+                "messageId": "wrongIndentation",
+                "endLine": 70,
+                "endColumn": 4,
+                "fix": {
+                    "range": [2425, 2428],
+                    "text": "      "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 70,
+                "column": 18,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 71,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2442, 2444],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 71,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 71,
+                "endColumn": 5
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 8 spaces but found 4 tabs.",
+                "line": 71,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 71,
+                "endColumn": 5,
+                "fix": {
+                    "range": [2444, 2448],
+                    "text": "        "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 71,
+                "column": 43,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 72,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2486, 2488],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 72,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 73,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2488, 2490],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 73,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 73,
+                "endColumn": 5
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 8 spaces but found 4 tabs.",
+                "line": 73,
+                "column": 1,
+                "nodeType": "Keyword",
+                "messageId": "wrongIndentation",
+                "endLine": 73,
+                "endColumn": 5,
+                "fix": {
+                    "range": [2490, 2494],
+                    "text": "        "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 73,
+                "column": 11,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 74,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2500, 2502],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 74,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 74,
+                "endColumn": 3
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 4 spaces but found 2 tabs.",
+                "line": 74,
+                "column": 1,
+                "nodeType": "Punctuator",
+                "messageId": "wrongIndentation",
+                "endLine": 74,
+                "endColumn": 3,
+                "fix": {
+                    "range": [2502, 2504],
+                    "text": "    "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 74,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 75,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2505, 2507],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 75,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 75,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 75,
+                "column": 1,
+                "nodeType": "Punctuator",
+                "messageId": "wrongIndentation",
+                "endLine": 75,
+                "endColumn": 2,
+                "fix": {
+                    "range": [2507, 2508],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 75,
+                "column": 5,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 76,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2511, 2513],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 76,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 77,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2513, 2515],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 100. Maximum allowed is 80.",
+                "line": 77,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 77,
+                "endColumn": 100
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 77,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 77,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 77,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 77,
+                "endColumn": 2,
+                "fix": {
+                    "range": [2515, 2516],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 77,
+                "column": 100,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 78,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2614, 2616],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 96. Maximum allowed is 80.",
+                "line": 78,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 78,
+                "endColumn": 95
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 78,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 78,
+                "endColumn": 2
+            }, {
+                "ruleId": "indent",
+                "severity": 2,
+                "message": "Expected indentation of 2 spaces but found 1 tab.",
+                "line": 78,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "wrongIndentation",
+                "endLine": 78,
+                "endColumn": 2,
+                "fix": {
+                    "range": [2616, 2617],
+                    "text": "  "
+                }
+            }, {
+                "ruleId": "no-tabs",
+                "severity": 2,
+                "message": "Unexpected tab character.",
+                "line": 78,
+                "column": 4,
+                "nodeType": "Program",
+                "messageId": "unexpectedTab",
+                "endLine": 78,
+                "endColumn": 5
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 78,
+                "column": 95,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 79,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2710, 2712],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 79,
+                "column": 2,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 80,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2713, 2715],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "linebreak-style",
+                "severity": 2,
+                "message": "Expected linebreaks to be 'LF' but found 'CRLF'.",
+                "line": 80,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "expectedLF",
+                "endLine": 81,
+                "endColumn": 1,
+                "fix": {
+                    "range": [2715, 2717],
+                    "text": "\n"
+                }
+            }, {
+                "ruleId": "max-len",
+                "severity": 2,
+                "message": "This line has a length of 85. Maximum allowed is 80.",
+                "line": 81,
+                "column": 1,
+                "nodeType": "Program",
+                "messageId": "max",
+                "endLine": 81,
+                "endColumn": 86
+            }, {
+                "ruleId": "spaced-comment",
+                "severity": 2,
+                "message": "Expected space or tab after '//' in comment.",
+                "line": 81,
+                "column": 1,
+                "nodeType": "Line",
+                "messageId": "expectedSpaceAfter",
+                "endLine": 81,
+                "endColumn": 86,
+                "fix": {
+                    "range": [2719, 2719],
+                    "text": " "
+                }
+            }, {
+                "ruleId": "eol-last",
+                "severity": 2,
+                "message": "Newline required at end of file but not found.",
+                "line": 81,
+                "column": 86,
+                "nodeType": "Program",
+                "messageId": "missing",
+                "fix": {
+                    "range": [2802, 2802],
+                    "text": "\n"
+                }
+            }
+        ],
+        "suppressedMessages": [],
+        "errorCount": 220,
+        "fatalErrorCount": 0,
+        "warningCount": 0,
+        "fixableErrorCount": 150,
+        "fixableWarningCount": 0,
+        "source": "//===Any global variables whose scope will need to be across the entire file...\r\nvar currentId;\r\nvar apple;\r\n\r\n//===Actually, I am kind of a big fan of defining a Global object, or something\r\n//\t similar to store all of my page-level variables to. Something like:\r\nvar Global = {\r\n\tcurrentId: undefined,\r\n\taction: 'create',\r\n\tuser: {\r\n\t\tuserName: 'Bob',\r\n\t\temail: 'bgibilaro@valexander.com',\r\n\t\textension: '2470'\r\n\t}\r\n};\r\n\r\n// this allows me to get those values anywhere in the page with\r\n// something like Global.currentId or Global.user.userName. I can also set it by saying\r\n// Global.currentId = 2. I can even add to it on-the-fly by saying\r\n// Global.newVariable = 'something' which is now available over the\r\n// entirety of that page....\r\n\r\n//===My document.ready() handler...\r\n$(document).ready(function(){\r\n\r\n\t//=== do some code stuff...\r\n\r\n\t//===finally, bind my events...\r\n\tbindEvents();\r\n});\r\n\r\n//===This function handles event binding for anything on the page....\r\nfunction bindEvents(){\r\n\t// So, something simply like binding to a static anchor tag...\r\n\t$('#aSomeLink').on('click', function(event){\r\n\r\n\t\t// do some cool code stuff...\r\n\t\t// Mr. Wizard Time: try putting a break point someplace in here and\r\n\t\t//\tthen investigate the event argument. All sorts of cool stuff can\r\n\t\t//\tcome from there. In fact, what if I wanted to assign the link that\r\n\t\t//\twas clicked to a local variable?\r\n\r\n\t\t// I could do this...\r\n\t\t$a = $(this);\t// note, prefixing the variable with bling ($) is just a \r\n\t\t\t\t\t\t// nice way for us to know that it is a jQuery object...\r\n\r\n\t\t// Or, I could do this...\r\n\t\t$a = $(event.target);\r\n\r\n\t\t// I could also get the id of the link like so:\r\n\t\tvar id = event.target.id;\r\n\r\n\t\t// not a big difference, but it is nice to use native JavaScript when you can. \r\n\t});\r\n\r\n\t// Hey, but I can also do something cooler with the on method. What if I have a table\r\n\t//\tfull of documents on the page with the option to edit, delete, etc. each of the table\r\n\t//\trows. I can handle this in one nice bind using on. for the sake of this example, let's\r\n\t//\tassume I gave the \"delete\" link an attribute of rel=\"delete\" and the \"edit\" link an \r\n\t//\tattribute of rel=\"edit\", I could do the following:\r\n\t$('#myTable').on('click', 'a[rel=delete],a[rel=edit]', function(event){\r\n\t\t$a = $(event.target);\r\n\r\n\t\tswitch($a.attr('rel')){\r\n\t\t\tcase 'edit':\r\n\r\n\t\t\t\t// do some stuff or call a function...\r\n\t\t\t\t\r\n\t\t\t\tbreak;\r\n\t\t\tcase 'delete':\r\n\t\t\t\t// do some stuff or call a function...\r\n\r\n\t\t\t\tbreak;\r\n\t\t}\r\n\t});\r\n\r\n\t// the above allows you to setup your bindings one time, when the page loads and then forget about\r\n\t//\tit. It will apply those bindings any time a new row is added to #myTable, automagically...\r\n}\r\n\r\n//===Then everything below this is all of the other declared functions for my page...",
+        "usedDeprecatedRules": [{
+                "ruleId": "valid-jsdoc",
+                "replacedBy": []
+            }, {
+                "ruleId": "require-jsdoc",
+                "replacedBy": []
+            }
+        ]
+ }

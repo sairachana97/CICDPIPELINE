@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpcs version="3.7.2">
+<file name="/Users/shreyareddy/Downloads/CeaserCipher.php" errors="16" warnings="4" fixable="5">
+    <error line="1" column="1" source="PEAR.Commenting.FileComment.Missing" severity="5" fixable="0">Missing file doc comment</error>
+    <error line="3" column="1" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$text&quot; missing</error>
+    <error line="3" column="1" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$shift&quot; missing</error>
+    <error line="6" column="4" source="PEAR.Commenting.FunctionComment.MissingParamName" severity="5" fixable="0">Missing parameter name</error>
+    <error line="6" column="10" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value for @param tag indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="7" column="4" source="PEAR.Commenting.FunctionComment.MissingParamName" severity="5" fixable="0">Missing parameter name</error>
+    <error line="7" column="10" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value for @param tag indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="8" column="4" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag @return cannot be grouped with parameter tags in a doc comment</error>
+    <warning line="15" column="71" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line exceeds 85 characters; contains 111 characters</warning>
+    <warning line="18" column="42" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line exceeds 85 characters; contains 91 characters</warning>
+    <error line="28" column="1" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$text&quot; missing</error>
+    <error line="28" column="1" source="PEAR.Commenting.FunctionComment.MissingParamTag" severity="5" fixable="0">Doc comment for parameter &quot;$shift&quot; missing</error>
+    <error line="30" column="4" source="Generic.Commenting.DocComment.SpacingBeforeTags" severity="5" fixable="1">There must be exactly one blank line before the tags in a doc comment</error>
+    <error line="30" column="4" source="PEAR.Commenting.FunctionComment.MissingParamName" severity="5" fixable="0">Missing parameter name</error>
+    <error line="30" column="10" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value for @param tag indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="31" column="4" source="PEAR.Commenting.FunctionComment.MissingParamName" severity="5" fixable="0">Missing parameter name</error>
+    <error line="31" column="10" source="Generic.Commenting.DocComment.TagValueIndent" severity="5" fixable="1">Tag value for @param tag indented incorrectly; expected 2 spaces but found 1</error>
+    <error line="32" column="4" source="Generic.Commenting.DocComment.NonParamGroup" severity="5" fixable="0">Tag @return cannot be grouped with parameter tags in a doc comment</error>
+    <warning line="39" column="71" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line exceeds 85 characters; contains 111 characters</warning>
+    <warning line="45" column="42" source="Generic.Files.LineLength.TooLong" severity="5" fixable="0">Line exceeds 85 characters; contains 91 characters</warning>
+</file>
+</phpcs>

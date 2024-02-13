@@ -1,0 +1,2 @@
+@status,@severity,cwe->@id,results->result->description->#text,results->result->tool->@category,results->result->tool->@name,rule->@code,rule->@name
+,,,,,,,

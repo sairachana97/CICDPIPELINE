@@ -1,0 +1,4 @@
+output,ClassInfo->Kingdom,ClassInfo->Type,ClassInfo->Subtype,ClassInfo->AnalyzerName,ClassInfo->DefaultSeverity,InstanceInfo->InstanceSeverity,InstanceInfo->Confidence
+,Encapsulation,System Information Leak,External,dataflow,3.0,3.0,4.6099997
+,Security Features,Weak Cryptographic Hash,,structural,3.0,3.0,5.0
+,Security Features,Password Management,Hardcoded Password,structural,4.0,4.0,5.0

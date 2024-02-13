@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="Calculator.js">
+		<error line="1" column="1" severity="warning" message="&apos;let&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="7" column="1" severity="warning" message="&apos;let&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="9" column="1" severity="warning" message="&apos;let&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="10" column="1" severity="warning" message="&apos;let&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="11" column="6" severity="warning" message="Creating global &apos;for&apos; variable. Should be &apos;for (var item ...&apos;." source="jshint.W088" />
+		<error line="11" column="11" severity="warning" message="&apos;for of&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="12" column="36" severity="warning" message="&apos;arrow function syntax (=&gt;)&apos; is only available in ES6 (use &apos;esversion: 6&apos;)." source="jshint.W119" />
+		<error line="12" column="34" severity="warning" message="Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (buttonText, flag, screenValue, screen, checkForBracketMulti, isNumber, console)" source="jshint.W083" />
+		<error line="102" column="18" severity="warning" message="eval can be harmful." source="jshint.W061" />
+		<error line="103" column="3" severity="warning" message="&apos;let&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="107" column="21" severity="warning" message="&apos;object short notation&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="126" column="20" severity="warning" message="eval can be harmful." source="jshint.W061" />
+		<error line="127" column="5" severity="warning" message="&apos;let&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+		<error line="131" column="23" severity="warning" message="&apos;object short notation&apos; is available in ES6 (use &apos;esversion: 6&apos;) or Mozilla JS extensions (use moz)." source="jshint.W104" />
+	</file>
+</checkstyle>

@@ -1,0 +1,4 @@
+,output,ClassInfo->Kingdom,ClassInfo->Type,ClassInfo->Subtype,ClassInfo->AnalyzerName,ClassInfo->DefaultSeverity,InstanceInfo->InstanceSeverity,InstanceInfo->Confidence,True Positive_predicted,True Positive_values_predicted,True Positive_binary_predicted
+0,,Security Features,Insecure Randomness,,structural,2.0,2.0,5.0,False,0.37624958,0
+1,,Security Features,Insecure Randomness,,structural,2.0,2.0,5.0,False,0.37624958,0
+2,,Encapsulation,System Information Leak,External,dataflow,3.0,3.0,4.8,False,0.31465977,0

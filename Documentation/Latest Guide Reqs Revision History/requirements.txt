@@ -1,0 +1,8 @@
+pyqt5==5.15.4
+pyqt5-tools==5.15.4.3.2
+numpy==1.19.5
+pandas==1.1.5
+tensorflow==2.5.0
+pyinstaller==5.3
+xmltodict==0.12.0
+jupyter==1.0.0

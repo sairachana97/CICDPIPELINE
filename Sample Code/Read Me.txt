@@ -1,0 +1,6 @@
+PHP test suite and Juliet are synthetic datasets that have on purpose bugs, more test suites and information can be found on:
+
+https://samate.nist.gov/SARD/test-suites/
+
+
+The whatsapp is just the open source code for the whats app software that we found on git hub
